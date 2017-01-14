@@ -30,50 +30,50 @@ post '/callback' do
         message = {
   "type": "template",
   "altText": "this is a carousel template",
-  template: {
-      type: "carousel",
-      columns: [
+  "template": {
+      "type": "carousel",
+      "columns": [
           {
-            thumbnailImageUrl: "http://www.enjoytokyo.jp/img/s_e/11140/1113625IMG1.jpg",
-            title: "this is menu",
-            text: "description",
-            actions: [
+            "thumbnailImageUrl": "http://www.enjoytokyo.jp/img/s_e/11140/1113625IMG1.jpg",
+            "title": "this is menu",
+            "text": "description",
+            "actions": [
                 {
-                    type: "postback",
-                    label: "Buy",
-                    data: "action=buy&itemid=111"
+                    "type": "postback",
+                    "label": "Buy",
+                    "data": "action=buy&itemid=111"
                 },
                 {
-                    type: "postback",
-                    label: "Add to cart",
-                    data: "action=add&itemid=111"
+                    "type": "postback",
+                    "label": "Add to cart",
+                    "data": "action=add&itemid=111"
                 },
                 {
-                    type: "uri",
-                    label: "View detail",
-                    uri: "http://www.enjoytokyo.jp/img/s_e/13080/1307816IMG1.jpg"
+                    "type": "uri",
+                    "label": "View detail",
+                    "uri": "http://www.enjoytokyo.jp/img/s_e/13080/1307816IMG1.jpg"
                 }
             ]
           },
           {
-            thumbnailImageUrl: "http://www.enjoytokyo.jp/img/s_e/13465/1346309IMG1.jpg",
-            title: "this is menu",
-            text: "description",
-            actions: [
+            "thumbnailImageUrl": "http://www.enjoytokyo.jp/img/s_e/13465/1346309IMG1.jpg",
+            "title": "this is menu",
+            "text": "description",
+            "actions": [
                 {
-                    type: "postback",
-                    label: "Buy",
-                    data: "action=buy&itemid=222"
+                    "type": "postback",
+                    "label": "Buy",
+                    "data": "action=buy&itemid=222"
                 },
                 {
-                    type: "postback",
-                    label: "Add to cart",
-                    data: "action=add&itemid=222"
+                    "type": "postback",
+                    "label": "Add to cart",
+                    "data": "action=add&itemid=222"
                 },
                 {
-                    type: "uri",
-                    label: "View detail",
-                    uri: "http://www.enjoytokyo.jp/search/event/area-2/today/"
+                    "type": "uri",
+                    "label": "View detail",
+                    "uri": "http://www.enjoytokyo.jp/search/event/area-2/today/"
                 }
             ]
           }
