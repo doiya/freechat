@@ -28,8 +28,8 @@ post '/callback' do
       case event.type
       when Line::Bot::Event::MessageType::Text
         message = {
-  type: "template",
-  altText: "this is a carousel template",
+  "type": "template",
+  "altText": "this is a carousel template",
   template: {
       type: "carousel",
       columns: [
