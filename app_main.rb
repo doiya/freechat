@@ -34,7 +34,7 @@ post '/callback' do
       type: "carousel",
       columns: [
           {
-            thumbnailImageUrl: "https://example.com/bot/images/item1.jpg",
+            thumbnailImageUrl: "http://www.enjoytokyo.jp/img/s_e/11140/1113625IMG1.jpg",
             title: "this is menu",
             text: "description",
             actions: [
@@ -51,12 +51,12 @@ post '/callback' do
                 {
                     type: "uri",
                     label: "View detail",
-                    uri: "http://example.com/page/111"
+                    uri: "http://www.enjoytokyo.jp/img/s_e/13080/1307816IMG1.jpg"
                 }
             ]
           },
           {
-            thumbnailImageUrl: "https://example.com/bot/images/item2.jpg",
+            thumbnailImageUrl: "http://www.enjoytokyo.jp/img/s_e/13465/1346309IMG1.jpg",
             title: "this is menu",
             text: "description",
             actions: [
@@ -73,7 +73,7 @@ post '/callback' do
                 {
                     type: "uri",
                     label: "View detail",
-                    uri: "http://example.com/page/222"
+                    uri: "http://www.enjoytokyo.jp/search/event/area-2/today/"
                 }
             ]
           }
